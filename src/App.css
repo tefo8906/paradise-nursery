@@ -5,7 +5,17 @@ a { text-decoration: none; color: inherit; }
 .brand { font-size: 1.5rem; font-weight: 700; }
 .nav-links { display: flex; align-items: center; gap: 28px; font-weight: 600; }
 .cart-link span { background: #e8b44e; color: #1e4d2b; padding: 3px 8px; border-radius: 20px; margin-left: 5px; }
-.landing-page { min-height: calc(100vh - 70px); background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=2000&q=85'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; }
+.landing-page {
+  min-height: calc(100vh - 70px);
+  background-image: url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .landing-overlay { text-align: center; background: rgba(255,255,255,.86); padding: 50px 70px; border-radius: 18px; max-width: 650px; }
 .landing-overlay h1 { font-size: 3.5rem; margin: 0 0 12px; color: #1e4d2b; }
 .landing-overlay p { font-size: 1.2rem; margin-bottom: 30px; }
