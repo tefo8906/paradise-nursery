@@ -10,7 +10,9 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link className="brand" to="/">Paradise Nursery</Link>
+      <Link to="/plants">
+  <button className="get-started">Get Started</button>
+</Link>
       <div className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/plants">Plants</Link>
