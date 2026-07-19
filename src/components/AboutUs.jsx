@@ -1,15 +1,25 @@
-export default function AboutUs() {
+function AboutUs() {
   return (
-    <section className="about-page">
+    <div className="about-us">
       <h1>About Paradise Nursery</h1>
+
+      <h2>Our Company</h2>
+
       <p>
-        Paradise Nursery is a plant-loving company dedicated to making it easy for everyone
-        to bring fresh, beautiful greenery into their homes and offices.
+        Paradise Nursery is a houseplant company that provides high-quality
+        indoor plants for homes and offices.
       </p>
+
       <p>
-        We carefully select houseplants that are suitable for different spaces and lifestyles.
-        Our goal is to make plant shopping simple, enjoyable, and accessible.
+        Our company is committed to helping customers create beautiful,
+        healthy, and relaxing indoor spaces through plants.
       </p>
-    </section>
+
+      <p>
+        We make plant shopping simple, convenient, and enjoyable for everyone.
+      </p>
+    </div>
   );
 }
+
+export default AboutUs;
